@@ -516,7 +516,9 @@ main {
 
 .service { margin-bottom: 35px; }
 
-.service-title { margin-bottom: 20px; }
+.service-title { margin-bottom: 20px;
+font-size: 24px;
+margin-top: 20px;}
 
 .service-list {
   display: grid;
@@ -547,6 +549,10 @@ main {
 .service-icon-box img { margin: auto; }
 
 .service-content-box { text-align: center; }
+
+time {
+  color: gray; /* Change the color to gray */
+}
 
 .service-item-title { margin-bottom: 7px; }
 
@@ -834,7 +840,7 @@ main {
  * skills 
  */
 
-.skills-title { margin-bottom: 20px; }
+.skills-title { margin-bottom: 20px; margin-top: 20px;}
 
 .skills-list { padding: 20px; }
 
