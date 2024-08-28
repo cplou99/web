@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/mefocus.jpg" alt="Carlos Plou" width="100">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Carlos Plou">Carlos Plou</h1>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:c.plou@unizar.es" class="contact-link">c.plou@unizar.es</a>
+            </div>
+
+          </li>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Age</p>
+
+              <time datetime="1999-08-22">25 years old</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Zaragoza, Spain</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <a rel="githubpage" href="https://github.com/cplou99">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <a rel="twitterpage" href="https://x.com/cplou99">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <a rel="linkedinpage" href="https://www.linkedin.com/in/carlos-plou-b2b9121b5/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <a rel="scholarpage" href="https://scholar.google.com/citations?user=8abuyVgAAAAJ&hl=es">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Teaching</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a PhD student specializing in Computer Vision and Deep Learning at the RoPeRT research group,
+            University of Zaragoza, Spain.
+            To reach this point, I firstly studied Mathematics and, in search of an area where I could apply
+            the acquired knowledge, I decided to pursue a Master's in Robotics, Graphics, and Computer Vision.
+          </p>
+            <p>
+              I am currently working on my PhD thesis, focusing on action recognition in videos with various features,
+              such as event-based or egocentric perspective. Additionally, I am interested in applying Bayesian deep learning
+              to computer vision tasks and generative models.
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">PhD Student in Computer Vision and Deep Learning</h3>
+          <h4 class="h4 service-title">Topics of interest</h4>
+          <ul class="service-list">
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/BDL.png
+                " alt="design icon" width="70">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Bayesian Deep Learning</h4>
+
+                <p class="service-item-text">
+                  Can we know when DL models are uncertain about their predictions?
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/AR.png" alt="Web development icon" width="70">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Action Recognition</h4>
+
+                <p class="service-item-text">
+                  Can we recognize or identify actions in long videos?
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="mobile app icon" width="70">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Event cameras</h4>
+
+                <p class="service-item-text">
+                  Are event cameras the future of computer vision?
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/GM.png" alt="camera icon" width="70">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative models</h4>
+
+                <p class="service-item-text">
+                  Can we leverage generative models to drone shows?
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Awards</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Ego4D.png" alt="Emily evans" width="40" data-testimonials-avatar class="adjusted-image">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Step Grounding Ego4D Challenge Winner</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Winner of the Step Grounding Challenge organized by EgoVis Workshop as part of the CVPR 2024.
+                  </p>
+                  <time datetime="2024-06-17">June 17, 2024</time>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ElevatorPitch.png" alt="Henry william" width="40" data-testimonials-avatar class="adjusted-image">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Second Place at Elevator Pitch Contest Unizar</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Second Place in the Elevator Pitch Contest at the VIII Triple Helix Meeting with Unizar.
+                  </p>
+                  <time datetime="2021-11-10">November 8, 2023</time>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/MRGCV2.png" width="20" data-testimonials-avatar class="adjusted-image">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Extraordinary Award in M.Sc.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Award for the best academic record in the Robotics, Graphics and Computer Vision M.Sc. program.
+                  </p>
+                  <time datetime="2023-06-20">June 20, 2023</time>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Maths.png" alt="Daniel lewis" width="60" data-testimonials-avatar class="adjusted-image">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>García Galdeano Award in Mathematics B.Sc.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                   <p>
+                    Received the García Galdeano Award for achieving the second-best academic record in the Mathematics B.Sc. program
+                  </p>
+                  <time datetime="2021-11-10">November 10, 2021</time>
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Grants</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Grant.png" alt="Emily evans" width="40" data-testimonials-avatar class="adjusted-image">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Predoctoral Researcher Grant</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   Granted by the Government of Aragón (also by the Spanish Government) to support predoctoral researchers in their Ph.D. studies.
+                  </p>
+                  <time datetime="2022-12-01">December 01, 2022</time>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Grant.png" alt="Henry william" width="40" data-testimonials-avatar class="adjusted-image">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Scholarship Grant at the University</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Scholarship granted by the Ministry of Education, Spain to collaborate with the Department of Statistical Methods at the University of Zaragoza.
+                  </p>
+                  <time datetime="2020-09-01">September 1, 2020</time>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Grant.png" width="20" data-testimonials-avatar class="adjusted-image">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Undergraduate Grant to study at the University</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Undergraduate studies finished with the highest honours, which allowed me to obtain a grant to study at the University of Zaragoza.
+                  </p>
+                  <time datetime="2023-06-20">June 01, 2017</time>
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PhD Student in Computer Vision and Deep Learning</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                 PhD student at the RoPeRT research group, University of Zaragoza, Spain. Supervised by Ana C. Murillo
+                and Rubén Martínez-Cantín.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.Sc. in Robotics, Graphics and Computer Vision</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                <u> Grade: 9.5/10</u>: Honours distinction in 56% of the courses, including Master's Thesis, Computer Vision, SLAM, Machine Learning or Applications of Deep Learning.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.Sc. in Mathematics</h4>
+
+              <span>2017 — 2021</span>
+
+              <p class="timeline-text">
+               <u> Grade: 9.1/10</u>: Honours distinction in 38% of the courses, including Bachelor’s Thesis, Graph Theory and Combinatorics, Operations Research or Regression Techniques.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PhD student at the RoPeRT research group, University of Zaragoza, Spain.</h4>
+
+              <span>Jan. 2023 — Present</span>
+
+              <p class="timeline-text">
+                Action recognition in videos of various types, including event-based cameras and egocentric perspectives.
+                Application of Bayesian deep learning to computer vision tasks.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior researcher at the RoPeRT research group, University of Zaragoza, Spain.</h4>
+
+              <span>Sep.2022 — Dec.2022</span>
+
+              <p class="timeline-text">
+                Analysis of the primary Bayesian deep learning techniques and usage in
+                the context of active exploration in reinforcement learning for robotic manipulation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Internship at Bitbrain Technologies, Spain.</h4>
+
+              <span>Feb.2022 — Jun.2022</span>
+
+              <p class="timeline-text">
+                EEG decoding from brain-computer interfaces
+                in order to classify motor activities such as different types of object grasping.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior Researcher at the Stochastic Models Group, University of Zaragoza, Spain.</h4>
+
+              <span>Sep.2020 — Jun.2021</span>
+
+              <p class="timeline-text">
+                Data analysis for studying the evolution of COVID-19 in Aragón, Spain by way of survival analysis
+                models and clustering algorithms.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Languages</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Spanish (Mother tongue)</h5>
+                <data value="100">100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">English</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">French</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+         <section class="skill">
+
+          <h3 class="h3 skills-title">Programming Languages</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C/C++</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PUBLICATIONS
+      -->
+
+      <article class="portfolio" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+
+
+
+          </ul>
+
+        </section>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://arxiv.org/abs/2404.01801">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/eventsleep.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">ECCV 2024</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">NeVI Workshop (Oral)</time>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">EventSleep: Sleep Activity Recognition with Event Cameras</h3>
+
+                  <p class="blog-text">
+                    Carlos Plou, Nerea Gallego, Alberto Sabater, Eduardo Montijano, Pablo Urcola, Luis Montesano, Ruben Martinez-Cantin, and Ana C Murillo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/genswarms.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">ECCV 2024</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">MAAS Workshop (Oral)</time>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Gen-Swarms: Adapting Deep Generative Models to Swarms of Drones</h3>
+
+                  <p class="blog-text">
+                    Carlos Plou*, Pablo Pueyo*, Ruben Martinez-Cantin, Mac Schwager, Ana C. Murillo, and Eduardo Montijano.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+            <li class="blog-post-item">
+              <a href="https://arxiv.org/abs/2406.09575">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/StepGrounding.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">CVPR 2024</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">EgoVis Workshop (Poster)</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">CARLOR@ Ego4D Step Grounding Challenge 🏆: Bayesian temporal-order priors for test time refinement</h3>
+
+                  <p class="blog-text">
+                    Carlos Plou*, Lorenzo Mur-Labadia*, Ruben Martinez-Cantin, and Ana C Murillo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://arxiv.org/abs/2404.01867">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ActiveExploration.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">ArXiV</p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Active Exploration in Bayesian Model-based Reinforcement Learning for Robot Manipulation</h3>
+
+                  <p class="blog-text">
+                    Carlos Plou, Ana C Murillo, and Ruben Martinez-Cantin.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+
+
+      <article class="blog" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://arxiv.org/abs/2404.01801">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/eventsleep.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">ECCV 2024</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">NeVI Workshop (Oral)</time>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">EventSleep: Sleep Activity Recognition with Event Cameras</h3>
+
+                  <p class="blog-text">
+                    Carlos Plou, Nerea Gallego, Alberto Sabater, Eduardo Montijano, Pablo Urcola, Luis Montesano, Ruben Martinez-Cantin, and Ana C Murillo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/genswarms.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">ECCV 2024</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">MAAS Workshop (Oral)</time>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Gen-Swarms: Adapting Deep Generative Models to Swarms of Drones</h3>
+
+                  <p class="blog-text">
+                    Carlos Plou*, Pablo Pueyo*, Ruben Martinez-Cantin, Mac Schwager, Ana C. Murillo, and Eduardo Montijano.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+            <li class="blog-post-item">
+              <a href="https://arxiv.org/abs/2406.09575">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/StepGrounding.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">CVPR 2024</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">EgoVis Workshop (Poster)</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">CARLOR@ Ego4D Step Grounding Challenge 🏆: Bayesian temporal-order priors for test time refinement</h3>
+
+                  <p class="blog-text">
+                    Carlos Plou*, Lorenzo Mur-Labadia*, Ruben Martinez-Cantin, and Ana C Murillo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://arxiv.org/abs/2404.01867">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ActiveExploration.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">ArXiV</p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Active Exploration in Bayesian Model-based Reinforcement Learning for Robot Manipulation</h3>
+
+                  <p class="blog-text">
+                    Carlos Plou, Ana C Murillo, and Ruben Martinez-Cantin.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+      -->
+
+     <!--
+            - #TEACHING
+            -->
+
+      <article class="blog" data-page="teaching">
+
+          <header>
+             <h2 class="h2 article-title">Teaching</h2>
+          </header>
+
+          <h4 class="h4 service-title">Computer Science B.Sc.</h4>
+          <ul class="service-list">
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/AI.png
+                " alt="design icon" width="70">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+
+                <p class="service-item-text">
+                  29 hours of practice.
+                </p>
+              </div>
+
+          </ul>
+
+         <h4 class="h4 service-title">Robotics, Graphics and Computer Vision M.Sc.</h4>
+          <ul class="service-list">
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ML.png
+                " alt="design icon" width="70">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  69 hours of practice.
+                </p>
+              </div>
+
+
+             <li class="service-item">
+
+             <div class="service-icon-box">
+                <img src="./assets/images/DL.png
+                " alt="design icon" width="70">
+              </div>
+            <div class="service-content-box">
+                <h4 class="h4 service-item-title">Applications of Deep Learning</h4>
+
+                <p class="service-item-text">
+                  6 hours os practice.
+                </p>
+              </div>
+
+          </ul>
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.6394071792197!2d-0.8873405000000001!3d41.68513050000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd59135d9d8942b3%3A0xa2fd5e66dd0a6120!2sInstituto%20de%20Investigaci%C3%B3n%20en%20Ingenier%C3%ADa%20de%20Arag%C3%B3n%20(I3A)!5e0!3m2!1ses!2ses!4v1724773210415!5m2!1ses!2ses"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
