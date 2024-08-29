@@ -1055,6 +1055,8 @@ time {
   box-shadow: var(--shadow-4);
   border-radius: 16px;
   z-index: 1;
+  text-decoration: none;
+  color: inherit;
 }
 
 .blog-post-item > a::before {
@@ -1080,7 +1082,11 @@ time {
   transition: var(--transition-1);
 }
 
-.blog-post-item > a:hover .blog-banner-box img { transform: scale(1.1); }
+.blog-post-item > a:hover{
+  text-decoration: underline;
+  color: #000; /* or any desired hover color */
+}
+.blog-banner-box img { transform: scale(1.1); }
 
 .blog-content { padding: 15px; }
 
