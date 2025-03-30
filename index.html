@@ -1,6 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+  .blog-banner-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blog-banner-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./assets/images/FALCON_task.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
+    opacity: 0.3;
+    z-index: 0;
+  }
+  
+  .blog-banner-box img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+    padding: 15px 0; /* Espacio superior e inferior opcional */
+  }
+  </style>
+
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -864,8 +900,8 @@
             <li class="blog-post-item">
               <a href="https://cplou99.github.io/FALCONEye/">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/FALCON_task.png" alt="Best fonts every designer" loading="lazy" style="width:50%; height:auto;">
+                <figure class="blog-banner-box"> 
+                  <img src="./assets/images/FALCON_task.png" alt="Best fonts every designer" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
